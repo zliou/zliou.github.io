@@ -1,3 +1,52 @@
-.intro{
-	background-image: url(img/drafting.jpg);
+body{
+	margin: 0px;
+	font-family: Roboto Light, Roboto, Segoe UI, sans-serif;
+}
+
+h3{
+	font-size: 0.8em;
+}
+
+/* Intro */
+.intro {
+	background: url(img/drafting.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	height: 100vh;
+	width: 100vw;
+}
+
+.name {
+	padding-top: 25vh;
+	font-size: 3em;
+	font-weight: lighter;
+	text-align: center;
+	color: rgb(30, 30, 30);
+}
+
+.greet {
+	text-align: center;
+}
+
+/* Home */
+
+.home {
+	background: url(img/beach.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	padding-left: 4vw;
+	padding-right: 4vw;
+	height: 100vh;
+	width: 100vw;
+}
+
+.where {
+	padding-top: 8vh;
+	margin-bottom: 8vw;
 }
