@@ -1,3 +1,5 @@
+/* General */
+
 body{
 	margin: 0px;
 	font-family: Roboto Light, Roboto, Segoe UI, sans-serif;
@@ -8,17 +10,46 @@ h3{
 	font-size: 0.8em;
 }
 
+
+
+/* Nav Bar */
+.nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 6%;
+	background-color: rgb(50, 50, 50);
+	padding-left: 0vw;	
+}
+
+.nav-text {
+	color: white;
+	text-decoration: none;
+}
+.nav-text-container {
+	display: inline-block;
+	padding-top: 1%;
+	padding-left: 2vw;
+}
+
+
+
 /* Intro */
 .hello-link {
 	text-decoration: none;
 	color: inherit;
+	border-top: solid 1px rgb(50, 50, 50);
+	border-bottom: solid 1px rgb(50, 50, 50);
+	padding: 0.4em 13em;
 }
+
 .intro {
-	background: url(img/drafting.jpg) no-repeat center center;
+	/*background: url(img/drafting.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
 
 	height: 100vh;
 }
@@ -33,6 +64,8 @@ h3{
 .greet {
 	text-align: center;
 }
+
+
 
 /* Home */
 
@@ -49,7 +82,7 @@ h3{
 }
 
 .where {
-	padding-top: 8vh;
+	padding-top: 12vh;
 	margin-bottom: 8vw;
 }
 
