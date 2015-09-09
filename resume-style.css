@@ -9,7 +9,7 @@
 
 body {
 	margin: 0px;
-	font-family: Questrial, Roboto Light, Roboto, Segoe UI, sans-serif;
+	font-family: Questrial, Segoe UI, sans-serif;
 	color: rgb(75, 75, 75);
 }
 
@@ -18,7 +18,7 @@ body {
 	margin-right: 22vw;
 }
 
-.entry, .subgroup {
+.entry {
 	margin-left: 24vw;
 	margin-right: 24vw;
 }
