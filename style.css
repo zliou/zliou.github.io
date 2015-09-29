@@ -103,14 +103,6 @@ h3 {
 	height: 100vh;
 }
 
-.work-soon {
-	color: #0B3861;
-
-	padding-top: 45vh;
-	font-size: 3em;
-	font-weight: lighter;
-	text-align: center;
-}
 
 
 /* Art */
@@ -121,15 +113,6 @@ h3 {
 	height: 100vh;
 }
 
-.art-soon {
-	color: #FA5882;
-
-	padding-top: 45vh;
-	font-size: 3em;
-	font-weight: lighter;
-	text-align: center;
-}
-
 
 
 /* Resume */
@@ -138,15 +121,6 @@ h3 {
 	padding-left: 4vw;
 	padding-right: 4vw;
 	height: 100vh;
-}
-
-.resume-soon {
-	color: rgb(80, 90, 123);
-
-	padding-top: 45vh;
-	font-size: 3em;
-	font-weight: lighter;
-	text-align: center;
 }
 
 
