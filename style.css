@@ -9,6 +9,7 @@
 
 body {
 	margin: 0px;
+	padding: 0px;
 	font-family: Roboto Light, Roboto, Segoe UI, sans-serif;
 	color: rgb(50, 50, 50);
 }
@@ -57,18 +58,21 @@ h3 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;*/
-
 	height: 100vh;
+	background: #e67e22 radial-gradient(ellipse at center, rgba(255,255,255,0) 0%, rgba(0,0,0,0.2) 100%);
 }
 
 .name {
+	font-family: 'Nothing You Could Do', cursive;
 	padding-top: 25vh;
-	font-size: 3em;
-	font-weight: lighter;
+	color: white;
+	font-size: 5em;
+	/*font-weight: lighter;*/
 	text-align: center;
 }
 
 .greet {
+	color: white;
 	text-align: center;
 }
 
