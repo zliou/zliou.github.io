@@ -18,6 +18,10 @@ body {
 	margin-right: 22vw;
 }
 
+.header-info {
+	text-align: center;
+}
+
 .entry {
 	margin-left: 24vw;
 	margin-right: 24vw;
