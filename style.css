@@ -10,7 +10,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	font-family: Roboto Light, Roboto, Segoe UI, sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	color: rgb(50, 50, 50);
 }
 
@@ -59,7 +59,7 @@ h3 {
 	-o-background-size: cover;
 	background-size: cover;*/
 	height: 100vh;
-	background: #e67e22 radial-gradient(ellipse at center, rgba(255,255,255,0) 0%, rgba(0,0,0,0.2) 100%);
+	background: #3c546c radial-gradient(ellipse at center, rgba(255,255,255,0) 0%, rgba(0,0,0,0.2) 100%);
 }
 
 .name {
