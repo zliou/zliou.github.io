@@ -51,8 +51,8 @@ h3 {
 .hello-link {
 	text-decoration: none;
 	color: inherit;
-	border-top: solid 1px rgb(50, 50, 50);
-	border-bottom: solid 1px rgb(50, 50, 50);
+/*	border-top: solid 1px rgb(50, 50, 50);
+	border-bottom: solid 1px rgb(50, 50, 50);*/
 	padding: 0.4em 13em;
 }
 
@@ -73,6 +73,7 @@ h3 {
 	font-size: 5em;
 	/*font-weight: lighter;*/
 	text-align: center;
+	letter-spacing: 0.3em;
 }
 
 .greet {
