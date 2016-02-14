@@ -26,21 +26,24 @@ h3 {
 	top: 0;
 	left: 0;
 	width: 100vw;
-	height: 6%;
+	height: 4em;
 	background-color: rgb(50, 50, 50);
-	padding-left: 0vw;	
+
+	text-align: center;
+}
+
+.nav-text-container {
+	display: inline-block;
+	padding-top: 1.2em;
+	padding-left: 2vw;
+	padding-right: 2vw;
 }
 
 .nav-text {
 	color: white;
+	text-align: center;
 	text-decoration: none;
 }
-.nav-text-container {
-	display: inline-block;
-	padding-top: 1%;
-	padding-left: 2vw;
-}
-
 
 
 /* Intro */
@@ -59,11 +62,11 @@ h3 {
 	-o-background-size: cover;
 	background-size: cover;*/
 	height: 100vh;
-	background: #3c546c radial-gradient(ellipse at center, rgba(255,255,255,0) 0%, rgba(0,0,0,0.2) 100%);
+	background: #c0392b radial-gradient(ellipse at center, rgba(255,255,255,0) 0%, rgba(0,0,0,0.2) 100%);
 }
 
 .name {
-	font-family: 'Nothing You Could Do', cursive;
+	font-family: 'Cabin', cursive;
 	padding-top: 25vh;
 	color: white;
 	font-size: 5em;
@@ -81,7 +84,7 @@ h3 {
 /* Home */
 
 .home-page {
-	background: url(img/beach.jpg) no-repeat center center;
+	background: url(img/mountain.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -90,13 +93,15 @@ h3 {
 	padding-left: 4vw;
 	padding-right: 4vw;
 	height: 100vh;
+
+	color: white;
+	font-size: 1.2em;
 }
 
 .where {
 	padding-top: 12vh;
 	margin-bottom: 8vw;
 }
-
 
 
 /* Work */
