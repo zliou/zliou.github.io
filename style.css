@@ -23,7 +23,7 @@ h3 {
 
 /* Nav Bar */
 .nav-bar {
-	position: fixed;
+	position: fixed; /* TODO: remove this to implement navbar stick navigation */
 	top: 0;
 	left: 0;
 	width: 100vw;
@@ -134,6 +134,10 @@ h3 {
 	height: 100vh;
 }
 
+
+.test {
+	height: 1000px
+}
 
 
 /* Media Queries */

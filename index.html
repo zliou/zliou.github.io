@@ -18,6 +18,7 @@
 <body>
 
     <div class="nav-bar">
+    	<!-- Add id="sticky_navigation" to implement stick navigation. -->
 
         <div class="nav-text-container">
             <a class="nav-text" 
@@ -86,7 +87,7 @@
        	<div class="who">
            	<h3>WHO IS ZACHARY LIOU?</h3>
        	    <p>
-   	            No one knows quite yet. However, I believe that time will be the greatest storyteller of all.
+   	            I'm a second-year at UC San Diego interested in solving impactful problems using technology and the arts. I'm also interested in entrepreneurship, philosophy, jazz, and photography.
             </p>
            	<p>
                	Won't you stick around?
@@ -94,6 +95,8 @@
         </div>
 
     </div>
+
+    <!-- <div class="test"></div> -->
 
     <!-- JQuery -->
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -113,6 +116,33 @@
       				}
     			}
   			});
+		});
+		$(function() {
+ 
+    		// grab the initial top offset of the navigation 
+    		var sticky_navigation_offset_top = $('#sticky_navigation').offset().top;
+     
+    		// our function that decides weather the navigation bar should have "fixed" css position or not.
+    		var sticky_navigation = function(){
+        		var scroll_top = $(window).scrollTop(); // our current vertical position from the top
+         
+        		// if we've scrolled more than the navigation, change its position to fixed to stick to top,
+        		// otherwise change it back to relative
+        		if (scroll_top > sticky_navigation_offset_top) { 
+            		$('#sticky_navigation').css({ 'position': 'fixed', 'top':0, 'left':0 });
+		        } else {
+            		$('#sticky_navigation').css({ 'position': 'relative' }); 
+        		}   
+    		};
+     
+		    // run our function on load
+    		sticky_navigation();
+     
+    		// and run it again every time you scroll
+    		$(window).scroll(function() {
+    		     sticky_navigation();
+		    });
+ 
 		});
 
     </script>
