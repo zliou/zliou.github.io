@@ -1,0 +1,29 @@
+/* File: art-style.css */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lora', sans-serif;
+}
+
+img {
+	border: 1px solid;
+}
+
+.container {
+}
+
+.piece {
+	margin-top: 10vh;
+	margin-bottom: 5vh;
+}
+
+.description {
+  max-width: 40vw;
+  margin: auto;
+}
+
+.entry {
+	min-height: 110vh;
+	text-align: center;
+}
