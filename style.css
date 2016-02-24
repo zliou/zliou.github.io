@@ -19,6 +19,9 @@ h3 {
 	text-align: center;
 }
 
+a {
+	text-decoration: none;
+}
 
 
 /* Nav Bar */
@@ -103,6 +106,18 @@ h3 {
 .where {
 	padding-top: 14vh;
 	margin-bottom: 8vw;
+}
+
+.links {
+	margin-top: 35vh;
+	text-align: center;
+}
+
+.icon {
+	max-width: 3em;
+	max-height: 3em;
+	padding-right: 1em;
+	padding-left: 1em;
 }
 
 
