@@ -1,165 +1,112 @@
 /*
- *	Name: Zachary Liou
- *  Date: ~ July - September 2015
- *	File: style.css
- *	Purpose: CSS style sheet for personal website.
+ * File: style.css
+ * Author: Zachary Liou
+ * Date created: 2016 July 25
+ * Description: Primary CSS stylesheet for personal site
  */
 
-/* General */
+
+* {
+	margin: 0;
+	padding: 0;
+}
 
 body {
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Ubuntu', sans-serif;
-	color: rgb(50, 50, 50);
+	background-color: #2e2e2e;
+	font-family: 'Scope One', sans-serif;
 }
 
-h3 {
-	font-size: 0.8em;
+h1 {
+	padding-top: 15vh;
+	color: white;
+	font-size: 7em;
 	text-align: center;
+	font-weight: 400;
+	letter-spacing: 0.2em;
+	word-spacing: 0.5em;
 }
 
-a {
-	text-decoration: none;
+button {
+	width: 250px;
+    height: 250px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+
+    background: #c2c2c2;
+    color: white;
+    font-size: 3em;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 0 2vw;
 }
 
-
-/* Nav Bar */
-.nav-bar {
-	position: fixed; /* TODO: remove this to implement navbar stick navigation */
-	top: 0;
-	left: 0;
+.button-cn {
+	padding-top: 10vh;
 	width: 100vw;
-	height: 4em;
-	background-color: rgb(50, 50, 50);
-
+	height: 50vh;
 	text-align: center;
 }
 
-.nav-text-container {
-	display: inline-block;
-	padding-top: 1.2em;
-	padding-left: 2vw;
-	padding-right: 2vw;
+.red {
+	background: #c0392b;
 }
 
-.nav-text {
+.yellow {
+	background: #f1c40f;
+}
+
+.green {
+	background: #27ae60;
+}
+
+.blue {
+	background: #2980b9;
+}
+
+/*
+.button-text {
+	font-size: 4em;
+	align-self: center;
+}
+
+.button-container {
+	margin: 20vh 40vw;
+}
+
+#button1 {
+	background-color: #e2e2e2;
 	color: white;
-	text-align: center;
-	text-decoration: none;
-}
-
-
-/* Intro */
-.hello-link {
-	text-decoration: none;
-	color: inherit;
-/*	border-top: solid 1px rgb(50, 50, 50);
-	border-bottom: solid 1px rgb(50, 50, 50);*/
-	padding: 0.4em 13em;
-}
-
-.intro-page {
-	/*background: url(img/drafting.jpg) no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;*/
-	height: 100vh;
-	background: #c0392b radial-gradient(ellipse at center, rgba(255,255,255,0) 0%, rgba(0,0,0,0.2) 100%);
-}
-
-.name {
-	font-family: 'Cabin', cursive;
-	padding-top: 25vh;
-	color: white;
-	font-size: 5em;
-	/*font-weight: lighter;*/
-	text-align: center;
-	letter-spacing: 0.3em;
-}
-
-.greet {
-	color: white;
-	text-align: center;
 }
 
 
 
-/* Home */
+*/
+/*
+ * Misc.
+ */
+/*
+.button {
+    width: 250px;
+    height: 250px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
 
-.home-page {
-	background: url(img/mountain.jpg) no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-
-	padding-left: 4vw;
-	padding-right: 4vw;
-	height: 100vh;
-
-	color: white;
-	font-size: 1.2em;
+    display: flex;
+    justify-content: center;
 }
 
-.where {
-	padding-top: 14vh;
-	margin-bottom: 8vw;
-}
+.button-shadow {
+	margin-top: -200px;
+	position: absolute;
+	z-index: -1;
+	background: black;
 
-.links {
-	margin-top: 35vh;
-	text-align: center;
-}
-
-.icon {
-	max-width: 3em;
-	max-height: 3em;
-	padding-right: 1em;
-	padding-left: 1em;
-}
-
-
-/* Work */
-
-.work-page {
-	padding-left: 4vw;
-	padding-right: 4vw;
-	height: 100vh;
-}
-
-
-
-/* Art */
-
-.art-page {
-	padding-left: 4vw;
-	padding-right: 4vw;
-	height: 100vh;
-}
-
-
-
-/* Resume */
-
-.resume-page {
-	padding-left: 4vw;
-	padding-right: 4vw;
-	height: 100vh;
-}
-
-
-.test {
-	height: 1000px
-}
-
-
-/* Media Queries */
-
-@media (min-width: 800px) {
-	.home-page, .work-page, .art-page, .resume-page {
-		padding-left: 27vw;
-		padding-right: 27vw;
-	}
-}
+	width: 250px;
+    height: 250px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    
+}*/
