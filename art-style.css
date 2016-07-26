@@ -10,6 +10,23 @@ img {
 	border: 1px solid #000000;
 }
 
+#intro-cover {
+	width: 100vw;
+	height: 100vh;
+	/*background: #2e2e2e;*/
+	background: white;
+	position: absolute;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+}
+
+#intro {
+	width: 100vw;
+	height: 100vh;
+	background: #2e2e2e;
+}
+
 .container {
 }
 
@@ -27,3 +44,21 @@ img {
 	min-height: 110vh;
 	text-align: center;
 }
+
+ #triangle-up { 
+ 	width: 0; 
+ 	height: 0; 
+ 	border-left: 50px solid transparent; 
+ 	border-right: 50px solid transparent; 
+ 	border-bottom: 100px solid red; 
+ 	align-self: center;
+ } 
+
+ #triangle-down { 
+ 	width: 0; 
+ 	height: 0; 
+ 	border-left: 50px solid transparent; 
+ 	border-right: 50px solid transparent; 
+ 	border-top: 100px solid red; 
+ 	align-self: center;
+ } 
