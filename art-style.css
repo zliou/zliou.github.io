@@ -10,6 +10,18 @@ img {
 	border: 1px solid #000000;
 }
 
+#direct-up {
+	align-self: center;
+	margin-right: 10vw;
+	margin-left: 3vw;
+}
+
+#direct-down {
+	align-self: center;
+	margin-right: 3vw;
+	margin-left: 10vw;
+}
+
 #intro-cover {
 	width: 100vw;
 	height: 100vh;
@@ -48,17 +60,17 @@ img {
  #triangle-up { 
  	width: 0; 
  	height: 0; 
- 	border-left: 50px solid transparent; 
- 	border-right: 50px solid transparent; 
- 	border-bottom: 100px solid red; 
+ 	border-left: 3vw solid transparent; 
+ 	border-right: 3vw solid transparent; 
+ 	border-bottom: 5vw solid #2e2e2e; 
  	align-self: center;
  } 
 
  #triangle-down { 
  	width: 0; 
  	height: 0; 
- 	border-left: 50px solid transparent; 
- 	border-right: 50px solid transparent; 
- 	border-top: 100px solid red; 
+ 	border-left: 3vw solid transparent; 
+ 	border-right: 3vw solid transparent; 
+ 	border-top: 5vw solid #2e2e2e; 
  	align-self: center;
  } 
