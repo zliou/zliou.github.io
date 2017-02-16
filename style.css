@@ -74,49 +74,13 @@ p {
 	background: #2980b9;
 }
 
-/*
-.button-text {
-	font-size: 4em;
-	align-self: center;
+
+/* About */
+
+.about-text {
+	margin: 0 10vw;
 }
 
-.button-container {
-	margin: 20vh 40vw;
+.face {
+	margin: 3vh 10vw;
 }
-
-#button1 {
-	background-color: #e2e2e2;
-	color: white;
-}
-
-
-
-*/
-/*
- * Misc.
- */
-/*
-.button {
-    width: 250px;
-    height: 250px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-
-    display: flex;
-    justify-content: center;
-}
-
-.button-shadow {
-	margin-top: -200px;
-	position: absolute;
-	z-index: -1;
-	background: black;
-
-	width: 250px;
-    height: 250px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    
-}*/
