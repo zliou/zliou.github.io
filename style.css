@@ -77,10 +77,24 @@ p {
 
 /* About */
 
+#about-header-cn {
+	padding: 3vh 5vw;
+	height: 25vh;
+	border-bottom: solid white 2px;
+}
+
+#about-title {
+	padding-top: 8vh;
+	padding-left: 5vw;
+	float: left;
+}
+
 .about-text {
-	margin: 0 10vw;
+	margin: 3vh 10vw;
 }
 
 .face {
-	margin: 3vh 10vw;
+	margin-right: 10vw;
+	margin-top: 3vh;
+	float: right;
 }
