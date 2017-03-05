@@ -77,20 +77,15 @@ p {
 
 /* About */
 
-#about-header-cn {
-	padding: 3vh 5vw;
-	height: 25vh;
-	border-bottom: solid white 2px;
-}
-
-#about-title {
+.about-title {
 	padding-top: 8vh;
-	padding-left: 5vw;
-	float: left;
+	font-size: 5em;
 }
 
 .about-text {
+	font-size: 1.5em;
 	margin: 3vh 10vw;
+	text-align: justify;
 }
 
 .face {
