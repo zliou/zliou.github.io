@@ -84,8 +84,12 @@ p {
 
 .about-text {
 	font-size: 1.5em;
-	margin: 3vh 10vw;
+	/*margin: 3vh 10vw;*/
 	text-align: justify;
+}
+
+.about-text-cn {
+	padding: 3vh 30vw 3vh 30vw;
 }
 
 .face {
@@ -93,3 +97,9 @@ p {
 	margin-top: 3vh;
 	float: right;
 }
+
+.end {
+	text-align: center;
+	font-size: 3em;
+}
+
