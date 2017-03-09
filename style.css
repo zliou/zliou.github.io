@@ -103,3 +103,16 @@ p {
 	font-size: 3em;
 }
 
+.home {
+	text-align: center;
+	font-size: 1.5em;
+	margin-left: 45vw;
+	margin-right: 45vw;
+	margin-top: 25vh;
+	padding: 5px;
+
+	border: 1px solid #eaeaea;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
