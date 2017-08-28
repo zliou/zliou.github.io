@@ -30,7 +30,7 @@ button {
     background: #c2c2c2;
     color: white;
     font-size: 3em;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Muli', sans-serif;
     text-transform: uppercase;
     margin: 2vw 2vw;
 }
@@ -38,7 +38,7 @@ button {
 
 p {
 	color: white;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Muli', sans-serif;
 	font-size: 2em;
 }
 
@@ -85,7 +85,6 @@ p {
 .about-text {
 	font-size: 1.5em;
 	/*margin: 3vh 10vw;*/
-	text-align: justify;
 }
 
 .about-text-cn {
