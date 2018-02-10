@@ -13,7 +13,7 @@
 
 body {
 	background-color: #2e2e2e;
-	font-family: 'Scope One', sans-serif;
+	font-family: 'Chivo', sans-serif;
 }
 
 h1 {
@@ -30,9 +30,10 @@ button {
     background: #c2c2c2;
     color: white;
     font-size: 3em;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Chivo', sans-serif;
     text-transform: uppercase;
     margin: 2vw 2vw;
+    border: 1px black;
 }
 
 
