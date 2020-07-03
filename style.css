@@ -13,7 +13,7 @@
 
 body {
 	background-color: #2e2e2e;
-	font-family: 'Chivo', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 h1 {
@@ -30,7 +30,7 @@ button {
     background: #c2c2c2;
     color: white;
     font-size: 3em;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     margin: 2vw 2vw;
     border: 1px black;
@@ -39,7 +39,7 @@ button {
 
 p {
 	color: white;
-	font-family: 'Muli', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 2em;
 }
 
