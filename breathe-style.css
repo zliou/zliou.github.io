@@ -31,8 +31,17 @@ p {
 	font-size: 2em;
 }
 
-.play-button-container {
+.store-button-container {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 }
 
+#app-store-badge {
+  margin-top: 30px;
+  height: 125px;
+}
+
+#play-store-badge {
+  height: 185px;
+}
