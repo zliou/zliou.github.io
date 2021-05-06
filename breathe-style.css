@@ -31,7 +31,7 @@ p {
 	font-size: 2em;
 }
 
-.store-button-container {
+.phone-preview-container, .store-button-container {
     display: flex;
     justify-content: center;
     margin-top: 40px;
@@ -44,4 +44,10 @@ p {
 
 #play-store-badge {
   height: 185px;
+}
+
+#phone-preview {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
 }
