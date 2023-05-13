@@ -12,37 +12,89 @@
 }
 
 body {
-	background-color: #2e2e2e;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Jomolhari', serif;
 }
 
 h1 {
-	padding-top: 15vh;
-	color: white;
+    font-family: 'Jomolhari', serif;
 	font-size: 7em;
-	text-align: center;
-	font-weight: 400;
-	letter-spacing: 0.2em;
-	word-spacing: 0.5em;
+    font-weight: bold;
+    line-height: 1em;
 }
 
 button {
     background: #c2c2c2;
     color: white;
     font-size: 3em;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jomolhari', sans-serif;
     text-transform: uppercase;
     margin: 2vw 2vw;
     border: 1px black;
 }
 
-
 p {
-	color: white;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 2em;
+    margin-bottom: 20px;
+    line-height: 2.5em;
+    font-size: 15px;
 }
 
+#bar {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 6vh;
+    padding-bottom: 1vh;
+    justify-content: start;
+    gap: 5%;
+}
+
+.bar-link {
+    font-size: 12px;
+}
+
+.bar-link:hover {
+    color: green;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3vh;
+    gap: 5%;
+}
+
+#intro-text-container: {
+    min-width: 300px;
+    width: auto;
+    padding-right: 30px;
+
+    display: inline-block;
+    align-self: flex-start;
+}
+
+#intro {
+    line-break: loose;
+    margin-bottom: 0.8em;
+}
+
+#feature-zach {
+    display: inline-block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+
+    object-fit: cover;
+    max-width: 650px;
+    max-height: 650px;
+    width: auto;
+    height: auto;
+
+    margin-top: 3em;
+    align-self: start;
+}
 
 .button-cn {
 	padding-top: 10vh;
@@ -51,68 +103,7 @@ p {
 	text-align: center;
 }
 
-.circle {
-	width: 250px;
-    height: 250px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-}
-
-.red {
-	background: #c0392b;
-}
-
-.yellow {
-	background: #f1c40f;
-}
-
 .green {
-	background: #27ae60;
-}
-
-.blue {
-	background: #2980b9;
-}
-
-
-/* About */
-
-.about-title {
-	padding-top: 8vh;
-	font-size: 5em;
-}
-
-.about-text {
-	font-size: 1.5em;
-	/*margin: 3vh 10vw;*/
-}
-
-.about-text-cn {
-	padding: 3vh 30vw 3vh 30vw;
-}
-
-.face {
-	margin-right: 10vw;
-	margin-top: 3vh;
-	float: right;
-}
-
-.end {
-	text-align: center;
-	font-size: 3em;
-}
-
-.home {
-	text-align: center;
-	font-size: 1.5em;
-	margin-left: 45vw;
-	margin-right: 45vw;
-	margin-top: 25vh;
-	padding: 5px;
-
-	border: 1px solid #eaeaea;
-	border-radius: 3px;
-	text-transform: uppercase;
+    color: green;
 }
 

@@ -5,8 +5,10 @@
 	<title>Zach Liou</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+
+    <link href="https://fonts.googleapis.com/css2?family=Jomolhari&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap" rel="stylesheet">
 
 	<script src="js/jquery-1.11.1.min.js"></script> 
 
@@ -19,36 +21,47 @@
 </head>
 <body>
 
-	<h1 class="wow fadeInDown animated menu">
-		ZACH LIOU
-	</h1>
+    <div id="bar" class="wow fadeIn animated" data-wow-delay=".5s">
+        <p class="bar-link" onclick='window.location="Resume_Zachary_Liou.pdf";'>RESUME</p>
+        <p class="bar-link" onclick='window.location="https://www.linkedin.com/in/zachliou/";'>LINKEDIN</p>
+	    <p class="bar-link" onclick='window.location="https://www.github.com/zliou";'>GITHUB</p>
+	    <p class="bar-link" onclick='window.location="https://www.flickr.com/people/198051258@N03/";'>FLICKR</p>
+	    <p class="bar-link" onclick='window.location="https://www.youtube.com/@zachliou7569";'>YOUTUBE</p>
+    </div>
 
-	<div class="button-cn">
-		<button class="circle red wow fadeInUp animated menu" 
-				data-wow-delay=".15s"
-				onclick='window.location="Resume_Zachary_Liou.pdf";'>
-			Resume
-		</button>
+    <div id="container">
+        <div id="intro-text-container">
+            <h1 id="intro">
+            HI, I'M ZACH!
+	        </h1>
 
-		<button class="circle yellow wow fadeInUp animated menu" 
-				data-wow-delay=".20s"
-				onclick='window.location="https://www.github.com/zliou";'>
-			GitHub
-		</button>
+            <p>
+			I spend my time at the intersection of computer science, art, and entrepreneurship, and 
+            I'm fascinated by the way people interact with other people and computers, and the potential
+            of technology for empowerment and education.
+            </p>
 
-		<button class="circle green wow fadeInUp animated menu" 
-				data-wow-delay=".25s"
-				onclick='window.location="art.html#intro";'>
-			Art
-		</button>
+            <p>
+            I'm an ex-Google software engineer (YouTube).
+            I graduated from UC San Diego, where I studied Mathematics and Computer Science ('18).
+            I have a deep interest in how software systems evolve over time to fit its needs.
+            I'm also quite interested in interaction design, entrepreneurship, and product management.
+            </p>
 
-		<button class="circle blue wow fadeInUp animated menu" 
-				id="blue-button"
-				data-wow-delay=".30s"
-				onclick='window.location="about.html"'>
-			About
-		</button>
-	</div>
+            <p>
+            You can catch me outside - I particularly enjoy surfing, snowboarding, photography, fishing,
+            and traveling.
+            When the weather isn't as nice, I like to dabble in jazz, songwriting, and electronic music -
+            my instruments of choice are the guitar, alto sax, and keys.
+            </p>
+
+            <p>
+            <b class="green">Email: </b>zachliou (at) gmail (dot) com
+            </p>
+        </div>
+    
+        <img id="feature-zach" class="wow fadeIn animated menu" src="img/zach.jpg"/>
+    </div>
 
 </body>
 </html>
