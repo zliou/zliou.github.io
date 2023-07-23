@@ -58,26 +58,35 @@ p {
 
 #container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 100%;
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 3vh;
     gap: 5%;
+    margin: auto;
 }
 
 #intro-text-container: {
     min-width: 300px;
+    max-width: 700px;
     width: auto;
     padding-right: 30px;
 
     display: inline-block;
     align-self: flex-start;
+    flex-wrap: wrap;
 }
 
 #intro {
     line-break: loose;
     margin-bottom: 0.8em;
+}
+
+.text {
+    min-width: 300px;
+    width: 100%;
+    max-width: 700px;
 }
 
 #feature-zach {
