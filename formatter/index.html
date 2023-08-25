@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+    <title>List Formatter</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'/>
+    <script src="script.js"></script>
+    <script src="formatter.js"></script>
+</head>
+<body>
+    <h1>List Formatter</h1>
+
+    <div id="container">
+
+        <section id="section-input">
+            <h2>Input</h2>
+            <div id="input-text-area-container">
+                <div class="textarea-label">
+                    <label for="input">Paste your list text here.</label>
+                </div>
+                <textarea id="input" rows="10" cols="50"></textarea>
+            </div>
+            <h3>Input format</h3>
+            <div class="options-container">
+                <div class="option-group">
+                    <div class="option">
+                        <input id="has-double-quotes" type="checkbox"/>
+                        <label for="has-double-quotes">Has double quotes</label>
+                    </div>
+                 
+                    <div class="option">
+                        <input id="has-single-quotes" type="checkbox"/>
+                        <label for="has-single-quotes">Has single quotes</label>
+                    </div>
+                </div>
+  
+                <div class="option-group">
+                    <div class="option">
+                        <input id="has-single-spaces" type="checkbox"/>
+                        <label for="has-single-spaces">
+                            Is separated by (single) spaces
+                        </label>
+                    </div>
+                 
+                    <div class="option">
+                        <input id="has-commas" type="checkbox"/>
+                        <label for="has-commas">Is separated by commas</label>
+                    </div>
+                 
+                    <div class="option">
+                        <input id="has-newlines" type="checkbox"/>
+                        <label for="has-newlines">
+                            Is separated by line breaks
+                        </label>
+                    </div>
+                 
+                    <div class="option">
+                        <input id="has-trailing-delimiter" type="checkbox"/>
+                        <label for="has-trailing-delimiter">
+                            Has a trailing delimiter
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+        <section id="section-output">
+            <h2>Output</h2>
+            <h3>Output format</h3>
+            <div class="options-container">
+                <div class="option-group">
+                    <div class="option">
+                        <input id="add-double-quotes" type="checkbox"/>
+                        <label for="add-double-quotes">Add double quotes</label>
+                    </div>
+                 
+                    <div class="option">
+                        <input id="add-single-quotes" type="checkbox"/>
+                        <label for="add-single-quotes">Add single quotes</label>
+                    </div>
+                </div>
+  
+                <div class="option-group">
+                    <div class="option">
+                        <input id="add-commas" type="checkbox"/>
+                        <label for="add-commas">Add commas</label>
+                    </div>
+                 
+                    <div class="option">
+                        <input id="add-spaces" type="checkbox"/>
+                        <label for="add-spaces">Add spaces</label>
+                    </div>
+                 
+                    <div class="option">
+                        <input id="add-newlines" type="checkbox"/>
+                        <label for="add-newlines">Add line breaks</label>
+                    </div>
+                 
+                    <div class="option">
+                        <input id="add-trailing-delimiter" type="checkbox"/>
+                        <label for="add-trailing-delimiter">
+                            Add trailing delimiter
+                        </label>
+                    </div>
+                </div>
+                 
+                <div class="option-group">
+                    <div class="option">
+                        <input id="sort-output" type="checkbox"/>
+                        <label for="sort-output">Sort output</label>
+                    </div>
+                </div>
+            </div>
+            <div id="button-format-container">
+                <button id="button-format" disabled="true" onclick="formatList()">
+                    Format
+                </button>
+            </div>
+            <div id="output-container">
+                <div class="textarea-label">
+                    <label for="output">Result:</output>
+                </div>
+                <textarea id="output" rows="10" cols="50"></textarea>
+                <!-- <button onclick="writeOutputToClipboard()">Copy</button> -->
+            </div>
+        </section>
+    </div>
+</body>
+</html>
