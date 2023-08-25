@@ -16,9 +16,9 @@ body {
 }
 
 h1 {
-    font-family: 'Jomolhari', serif;
+    font-family: 'Noto Serif Display', 'Jomolhari', serif;
 	font-size: 7em;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 1em;
 }
 
