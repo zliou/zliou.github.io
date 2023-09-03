@@ -65,6 +65,16 @@ std::string Join(const std::vector<std::string>& strings,
     return result;
 }
 
+// Remove quotes from a given string.
+void RemoveQuotes(std::string& s) {
+    if (s[0] == '"' || s[0] == '\'') {
+        s.erase(s.begin());
+    }
+    if (s.back() == '"' || s.back() == '\'') {
+        s.erase(s.end() - 1);
+    }
+}
+
 // Add quotes to a given string, in-place. Double quotes by default.
 void AddQuotes(std::string& s, const Quote& quote_type) {
     if (quote_type == Quote::NONE) {

@@ -63,8 +63,29 @@ void RunTests() {
                                        /*add_newline=*/true),
          std::string(", \n"));
 
-    // AddQuotes
+    // RemoveQuotes
     std::string test;
+    test = "\"test\"";
+    RemoveQuotes(test);
+    Test("RemoveDoubleQuotesSuccess", test, std::string("test"));
+
+    test = "'test'";
+    RemoveQuotes(test);
+    Test("RemoveSingleQuotesSuccess", test, std::string("test"));
+
+    test = "\"test";
+    RemoveQuotes(test);
+    Test("RemoveLeftUnmatchedQuoteSuccess", test, std::string("test"));
+
+    test = "test\"";
+    RemoveQuotes(test);
+    Test("RemoveRightUnmatchedQuoteSuccess", test, std::string("test"));
+
+    test = "test";
+    RemoveQuotes(test);
+    Test("RemoveNoQuotesSuccess", test, std::string("test"));
+
+    // AddQuotes
     test = "test";
     AddQuotes(test, Quote::DOUBLE);
     Test("AddDoubleQuotesSuccess", test, std::string("\"test\""));

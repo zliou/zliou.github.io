@@ -15,11 +15,21 @@ std::string Reformat(std::string input,
     if (output_options.sorted) {
         std::sort(tokens.begin(), tokens.end());
     }
-    if (output_options.quote != Quote::NONE) {
+
+    // If the input and output quotes are mismatched, we'll have to remove
+    // and add quotes. We start here by removing the quotes.
+    if (input_options.quote != output_options.quote) {
         for (std::string& s : tokens) {
-            AddQuotes(s, output_options.quote);
+            RemoveQuotes(s);
+        }
+        // Add the specified quotes.
+        if (output_options.quote != Quote::NONE) {
+            for (std::string& s : tokens) {
+                AddQuotes(s, output_options.quote);
+            }
         }
     }
+
     return Join(tokens, output_options.delimiter,
                 output_options.trailing_delimiter);
 }
